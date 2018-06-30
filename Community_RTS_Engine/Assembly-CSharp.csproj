@@ -61,7 +61,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
+    <Compile Include="Assets\Scripts\Game Objects\Building.cs" />
+    <Compile Include="Assets\Scripts\Game Objects\City.cs" />
+    <Compile Include="Assets\Scripts\Game Objects\Game Assets.cs" />
+    <Compile Include="Assets\Scripts\Game Objects\GathererUnit.cs" />
+    <Compile Include="Assets\Scripts\Game Objects\Player.cs" />
+    <Compile Include="Assets\Scripts\Game Objects\GathererBuilding.cs" />
+    <Compile Include="Assets\Scripts\Game Objects\SoldierBuilding.cs" />
+    <Compile Include="Assets\Scripts\Game Objects\SoldierUnit.cs" />
+    <Compile Include="Assets\Scripts\Game Objects\TraderUnit.cs" />
+    <Compile Include="Assets\Scripts\Game Objects\Unit.cs" />
+    <Compile Include="Assets\Scripts\Map.cs" />
+    <Compile Include="Assets\Scripts\Game Objects\Owned Assets.cs" />
+    <Compile Include="Assets\Scripts\Tile.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
     <Reference Include="Unity.PackageManagerUI.Editor">
       <HintPath>D:/Workspace/Github/Community_RTS_Engine/Community_RTS_Engine/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
