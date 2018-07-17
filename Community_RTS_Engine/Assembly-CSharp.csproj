@@ -61,12 +61,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Free_Pack\BURLY-MAN_1_swordsman\Free_GM.cs" />
-    <Compile Include="Assets\Free_Pack\Demo_GameResource\Script\CharacterController_2D.cs" />
-    <Compile Include="Assets\Free_Pack\Demo_GameResource\Script\ColliderEvent_Sender.cs" />
-    <Compile Include="Assets\Free_Pack\Demo_GameResource\Script\Demo_GM.cs" />
-    <Compile Include="Assets\Free_Pack\Demo_GameResource\Script\DestroyEffect.cs" />
-    <Compile Include="Assets\Free_Pack\Demo_GameResource\Script\WoodDoll_Mgr.cs" />
+    <Compile Include="Assets\Assets\Free_Pack\BURLY-MAN_1_swordsman\Free_GM.cs" />
+    <Compile Include="Assets\Assets\Free_Pack\Demo_GameResource\Script\CharacterController_2D.cs" />
+    <Compile Include="Assets\Assets\Free_Pack\Demo_GameResource\Script\ColliderEvent_Sender.cs" />
+    <Compile Include="Assets\Assets\Free_Pack\Demo_GameResource\Script\Demo_GM.cs" />
+    <Compile Include="Assets\Assets\Free_Pack\Demo_GameResource\Script\DestroyEffect.cs" />
+    <Compile Include="Assets\Assets\Free_Pack\Demo_GameResource\Script\WoodDoll_Mgr.cs" />
     <Compile Include="Assets\Scripts\Game Objects\Building.cs" />
     <Compile Include="Assets\Scripts\Game Objects\City.cs" />
     <Compile Include="Assets\Scripts\Game Objects\Game Assets.cs" />
@@ -81,10 +81,10 @@
     <Compile Include="Assets\Scripts\Map.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\Tile.cs" />
-    <None Include="Assets\Fantasy RPG Icon Set- Free\Notes.txt" />
-    <None Include="Assets\SpellBookPreface\ReadMe.txt" />
-    <None Include="Assets\Dragon Warrior Files\Read Me.txt" />
-    <None Include="Assets\Tiny Fantasy Icons\README.txt" />
+    <None Include="Assets\Assets\Fantasy RPG Icon Set- Free\Notes.txt" />
+    <None Include="Assets\Assets\SpellBookPreface\ReadMe.txt" />
+    <None Include="Assets\Assets\Dragon Warrior Files\Read Me.txt" />
+    <None Include="Assets\Assets\Tiny Fantasy Icons\README.txt" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>D:/Workspace/Github/Community_RTS_Engine/Community_RTS_Engine/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
