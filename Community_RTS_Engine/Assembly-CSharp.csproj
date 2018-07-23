@@ -67,6 +67,7 @@
     <Compile Include="Assets\Assets\Free_Pack\Demo_GameResource\Script\Demo_GM.cs" />
     <Compile Include="Assets\Assets\Free_Pack\Demo_GameResource\Script\DestroyEffect.cs" />
     <Compile Include="Assets\Assets\Free_Pack\Demo_GameResource\Script\WoodDoll_Mgr.cs" />
+    <Compile Include="Assets\Scripts\Game Objects\EnemyAI.cs" />
     <Compile Include="Assets\Scripts\Game Objects\Building.cs" />
     <Compile Include="Assets\Scripts\Game Objects\City.cs" />
     <Compile Include="Assets\Scripts\Game Objects\Game Assets.cs" />
@@ -74,12 +75,12 @@
     <Compile Include="Assets\Scripts\Game Objects\GathererUnit.cs" />
     <Compile Include="Assets\Scripts\Game Objects\Owned Assets.cs" />
     <Compile Include="Assets\Scripts\Game Objects\Player.cs" />
+    <Compile Include="Assets\Scripts\Game Objects\Resources.cs" />
     <Compile Include="Assets\Scripts\Game Objects\SoldierBuilding.cs" />
     <Compile Include="Assets\Scripts\Game Objects\SoldierUnit.cs" />
     <Compile Include="Assets\Scripts\Game Objects\TraderUnit.cs" />
     <Compile Include="Assets\Scripts\Game Objects\Unit.cs" />
     <Compile Include="Assets\Scripts\Map.cs" />
-    <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\Tile.cs" />
     <None Include="Assets\Assets\Fantasy RPG Icon Set- Free\Notes.txt" />
     <None Include="Assets\Assets\SpellBookPreface\ReadMe.txt" />

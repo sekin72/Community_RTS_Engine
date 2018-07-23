@@ -5,16 +5,21 @@ using System.Text;
 
 namespace Assets.Scripts.Game_Objects
 {
-    class Player
+    class Player : GameAssets
     {
-        private int resourcesHave;
-        private List<Tile> ownedTile;
-        private List<GathererUnit> Gatherers;
-        private List<SoldierUnit> Soldiers;
-        private List<TraderUnit> Traders;
-        private List<SoldierBuilding> SoldierBuilding;
-        private List<GathererBuilding> GathererBuilding;
-        private int occupiedTileAmount;
+        public int resourcesHave;
+        public List<Tile> ownedTile;
+        public List<GathererUnit> Gatherers;
+        public List<SoldierUnit> Soldiers;
+        public List<TraderUnit> Traders;
+        public List<SoldierBuilding> SoldierBuilding;
+        public List<GathererBuilding> GathererBuilding;
+        public int occupiedTileAmount;
+
+
+        public Player belongsTo;
+        public int timeNeeded;
+        public int resourceNeededWood, resourceNeededWheat, resourceNeededMeat, resourceNeededStone, resourceNeededGold;
 
     }
 }
