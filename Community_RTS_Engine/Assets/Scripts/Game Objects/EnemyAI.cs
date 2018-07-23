@@ -18,7 +18,7 @@ namespace Assets.Scripts
                 switch(sentTo)
                 {
                     case (0):
-                        Map.Instance.findClosestTileWithAsset(gatherer.currentTile, new Resources(Resources.Resource.Meat)));
+                        Map.Instance.findClosestTileWithAsset(gatherer.currentTile, new Resources(Resources.Resource.Meat));
                         sentTo++;
                         return;
                     case (1):

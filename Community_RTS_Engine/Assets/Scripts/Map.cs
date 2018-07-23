@@ -6,9 +6,8 @@ using System.Text;
 
 namespace Assets.Scripts
 {
-    class Map
+    public class Map
     {
-        private Tile[][] tileMap;
         public Tile[,] tileMap;
         public int numOfTiles, width, height;
         private string name;
@@ -16,7 +15,7 @@ namespace Assets.Scripts
 
         public Tile findClosestTile(Tile myPlace)
         {
-            Tile temp = tileMap.ElementAt(0);
+            Tile temp = tileMap[0,0];
             foreach(var tile in tileMap)
             {
                 if(temp.findDistance(myPlace) < tile.findDistance(myPlace))
@@ -29,7 +28,7 @@ namespace Assets.Scripts
 
         public Tile findClosestTileWithAsset(Tile myPlace, GameAssets item)
         {
-            Tile temp = tileMap.ElementAt(0);
+            Tile temp = tileMap[0, 0];
             foreach (var tile in tileMap)
             {
                 if (temp.findDistance(myPlace) < tile.findDistance(myPlace) && temp.occupiedBy.GetType() == item.GetType())

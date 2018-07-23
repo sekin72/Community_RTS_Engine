@@ -22,7 +22,7 @@ namespace Assets.Scripts
                 for (int j = 0; j < current.height; j++)
                 {
                     GameObject tileGameObject = new GameObject("Tile_" + i + "_" + j);
-                    tileGameObject.transform.position = new Vector3(i, j);
+                    tileGameObject.transform.position = new Vector3(i-10, j-5);
 
                     SpriteRenderer tileSpriteRenderer = tileGameObject.AddComponent<SpriteRenderer>();
                     Tile t = current.getLocation(i, j);
