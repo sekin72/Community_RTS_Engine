@@ -8,8 +8,11 @@ namespace Assets.Scripts
 {
     public class Tile
     {
-        public GameAssets occupiedBy;
         private Player belongsTo;
+        public enum TileType { grass, dirt, leaves };
+        public TileType type;
+        float moveSpeed;
+        public GameAssets occupiedBy;
         public int x, y;
 
         public bool compareTile(Tile targetTile)
@@ -36,6 +39,16 @@ namespace Assets.Scripts
         // Update is called once per frame
         void Update()
         {
+
+        }
+
+        public Tile(int X, int Y)
+        {
+            x = X;
+            y = Y;
+            type = TileType.dirt;
+            if (UnityEngine.Random.Range(0, 2) == 1)
+                type = TileType.grass;
 
         }
 
