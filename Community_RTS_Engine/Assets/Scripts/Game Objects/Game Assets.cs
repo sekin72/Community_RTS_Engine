@@ -11,7 +11,6 @@ public class GameAssets : MonoBehaviour
     public int health;
     //healthbar
     //updateHealthBar();
-    public enum Resource { Meat, Wheat, Rock, Metal, Gold};
 
 
     // Use this for initialization
