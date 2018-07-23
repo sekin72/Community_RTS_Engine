@@ -82,11 +82,16 @@
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\Tile.cs" />
     <None Include="Assets\Assets\castle\TXT\readme.txt" />
+    <None Include="Assets\Assets\buildings\firestation\firestation\LICENSE.txt" />
+    <None Include="Assets\Assets\buildings\barracks\barracks\LICENSE.txt" />
+    <None Include="Assets\Assets\buildings\weaponsmith\weaponsmith\FORGE CREDITS.txt" />
+    <None Include="Assets\Assets\buildings\weaponsmith\weaponsmith\LICENSE.txt" />
     <None Include="Assets\Assets\castle\TXT\LICENSES.txt" />
     <None Include="Assets\Assets\Fantasy RPG Icon Set- Free\Notes.txt" />
     <None Include="Assets\Assets\SpellBookPreface\ReadMe.txt" />
     <None Include="Assets\Assets\Dragon Warrior Files\Read Me.txt" />
     <None Include="Assets\Assets\Tiny Fantasy Icons\README.txt" />
+    <None Include="Assets\Assets\buildings\church\church\LICENSE.txt" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/Asus/Documents/GitHub/Community_RTS_Engine/Community_RTS_Engine/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
