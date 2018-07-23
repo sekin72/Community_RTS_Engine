@@ -10,7 +10,12 @@ namespace Assets.Scripts
     {
         private List<Tile> tileMap;
         private int numOfTiles;
+        public static Map Instance;
 
+        public Map()
+        {
+            Instance = this;
+        }
 
         public Tile findClosestTile(Tile myPlace)
         {
@@ -30,7 +35,7 @@ namespace Assets.Scripts
             Tile temp = tileMap.ElementAt(0);
             foreach (var tile in tileMap)
             {
-                if (temp.findDistance(myPlace) < tile.findDistance(myPlace) && temp.occupiedBy == item)
+                if (temp.findDistance(myPlace) < tile.findDistance(myPlace) && temp.occupiedBy.GetType() == item.GetType())
                 {
                     temp = tile;
                 }

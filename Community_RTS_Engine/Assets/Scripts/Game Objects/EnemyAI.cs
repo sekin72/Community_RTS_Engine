@@ -8,31 +8,58 @@ namespace Assets.Scripts
 {
     class EnemyAI : Player
     {
+        Player otherPlayer;
         public void WhatToDo()
         {
+            int sentTo = 0;
+
             foreach (var gatherer in Gatherers)
             {
-                Resources temp = new Resources();
-                Map.findClosestTileWithAsset(gatherer.currentTile, temp);
-                temp = new Resources(Resources.Resource.Meat);
-                Map.findClosestTileWithAsset(gatherer.currentTile, temp);
-                temp = new Resources(Resources.Resource.Metal);
-                Map.findClosestTileWithAsset(gatherer.currentTile, temp);
-                temp = new Resources(Resources.Resource.Rock);
-                Map.findClosestTileWithAsset(gatherer.currentTile, temp);
-                temp = new Resources(Resources.Resource.Wheat);
-                Map.findClosestTileWithAsset(gatherer.currentTile, temp);
+                switch(sentTo)
+                {
+                    case (0):
+                        Map.Instance.findClosestTileWithAsset(gatherer.currentTile, new Resources(Resources.Resource.Meat)));
+                        sentTo++;
+                        return;
+                    case (1):
+                        Map.Instance.findClosestTileWithAsset(gatherer.currentTile, new Resources(Resources.Resource.Metal));
+                        sentTo++;
+                        return;
+                    case (2):
+                        Map.Instance.findClosestTileWithAsset(gatherer.currentTile, new Resources(Resources.Resource.Rock));
+                        sentTo++;
+                        return;
+                    case (3):
+                        Map.Instance.findClosestTileWithAsset(gatherer.currentTile, new Resources(Resources.Resource.Wheat));
+                        sentTo++;
+                        return;
+                    case (4):
+                        Map.Instance.findClosestTileWithAsset(gatherer.currentTile, new Resources(Resources.Resource.Gold));
+                        sentTo =0;
+                        return;
+                    default:
+                        return;
+
+                }
             }
 
-            foreach (var soldier in Soldiers)
+            if (Soldiers.Count > 20)
             {
-
+                foreach (var soldier in Soldiers)
+                {
+                    foreach (var otherSoldier in otherPlayer.Soldiers)
+                    {
+                        soldier.attack(Map.Instance.findClosestTileWithAsset(soldier.currentTile, otherSoldier));
+                    }
+                }
             }
 
+            /*
             foreach (var trader in Traders)
             {
 
             }
+            */
 
             /*
              * foreach building

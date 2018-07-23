@@ -7,7 +7,6 @@ namespace Assets.Scripts.Game_Objects
 {
     class Player : GameAssets
     {
-        public int resourcesHave;
         public List<Tile> ownedTile;
         public List<GathererUnit> Gatherers;
         public List<SoldierUnit> Soldiers;
@@ -20,6 +19,6 @@ namespace Assets.Scripts.Game_Objects
         public Player belongsTo;
         public int timeNeeded;
         public int resourceNeededWood, resourceNeededWheat, resourceNeededMeat, resourceNeededStone, resourceNeededGold;
-
+        
     }
 }

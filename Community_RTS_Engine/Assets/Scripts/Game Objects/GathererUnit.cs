@@ -28,11 +28,8 @@ namespace Assets.Scripts.Game_Objects
         {
             bool flagRes = false;
 
-            foreach(var res in gatherTarget.occupiedBy)
-            {
-                if (res is Resource)
-                    flagRes = true;
-            }
+            if (gatherTarget.occupiedBy is Resources)
+                flagRes = true;
             if (!flagRes)
                 return ;
 
