@@ -2,14 +2,28 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using UnityEngine;
 
 namespace Assets.Scripts
 {
     public class Tile
     {
         public List<GameAssets> occupiedBy;
-        private Player belongsTo;
+        private Player belongsTo; // maybe change to building
         public int x, y;
+        public enum TileType { grass, dirt, leaves};
+        public TileType type;
+        float moveSpeed;
+
+        public Tile(int X, int Y)
+        {
+            x = X;
+            y = Y;
+            type = TileType.dirt;
+            if(UnityEngine.Random.Range(0, 2) == 1)   
+                type = TileType.grass;
+            
+        }
 
         public bool compareTile(Tile targetTile)
         {
