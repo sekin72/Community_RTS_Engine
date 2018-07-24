@@ -8,7 +8,7 @@ public class GameAssets : MonoBehaviour
 
     public double x, y;
     Tile currentTile;
-    public int health;
+    public int health=100;
     //healthbar
     //updateHealthBar();
 

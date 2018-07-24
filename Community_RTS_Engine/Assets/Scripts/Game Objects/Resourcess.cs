@@ -5,17 +5,17 @@ using System.Text;
 
 namespace Assets.Scripts.Game_Objects
 {
-    public class Resources : OwnedAssets
+    public class Resourcess : OwnedAssets
     {
         public enum Resource { Meat, Wheat, Rock, Metal, Gold };
         public Resource type;
 
-        public Resources(Resource tip)
+        public Resourcess(Resource tip)
         {
             type = tip;
         }
 
-        public Resources()
+        public Resourcess()
         {
         }
     }
