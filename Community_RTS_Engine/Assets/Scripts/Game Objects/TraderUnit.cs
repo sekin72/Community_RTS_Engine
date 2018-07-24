@@ -10,7 +10,11 @@ namespace Assets.Scripts.Game_Objects
     {
         private Tile tradeTile;
         private int amount;
+<<<<<<< HEAD
         private Resources asked;
+=======
+        private Resourcess asked;
+>>>>>>> origin/Kaan
         private String currentTask = "want";
 
         public void attack(Tile target)
@@ -28,7 +32,11 @@ namespace Assets.Scripts.Game_Objects
                     sellToTarget();
         }
 
+<<<<<<< HEAD
         public void want(Tile target, Resources type, int askedAmount)
+=======
+        public void want(Tile target, Resourcess type, int askedAmount)
+>>>>>>> origin/Kaan
         {
             tradeTile = target;
             asked = type;
@@ -37,7 +45,11 @@ namespace Assets.Scripts.Game_Objects
             wantFromTarget();
         }
 
+<<<<<<< HEAD
         public void sell(Tile target, Resources type, int askedAmount)
+=======
+        public void sell(Tile target, Resourcess type, int askedAmount)
+>>>>>>> origin/Kaan
         {
             tradeTile = target;
             asked = type;

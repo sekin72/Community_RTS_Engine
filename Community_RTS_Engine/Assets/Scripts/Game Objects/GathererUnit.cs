@@ -10,6 +10,12 @@ namespace Assets.Scripts.Game_Objects
         private int gatherSpeed;
         private Tile gatherTarget;
 
+        public GathererUnit(Tile t)
+        {
+            currentTile = t;
+            gatherSpeed = 5;
+        }
+
         public void Update()
         {
             if (gatherTarget != null)
@@ -28,7 +34,11 @@ namespace Assets.Scripts.Game_Objects
         {
             bool flagRes = false;
 
+<<<<<<< HEAD
             if (gatherTarget.occupiedBy is Resources)
+=======
+            if (gatherTarget.occupiedBy is Resourcess)
+>>>>>>> origin/Kaan
                 flagRes = true;
             if (!flagRes)
                 return ;
