@@ -67,6 +67,12 @@
     <Compile Include="Assets\Assets\Free_Pack\Demo_GameResource\Script\Demo_GM.cs" />
     <Compile Include="Assets\Assets\Free_Pack\Demo_GameResource\Script\DestroyEffect.cs" />
     <Compile Include="Assets\Assets\Free_Pack\Demo_GameResource\Script\WoodDoll_Mgr.cs" />
+    <Compile Include="Assets\Assets\Simple Health Bar\_Asteroids Example\Scripts\AsteroidController.cs" />
+    <Compile Include="Assets\Assets\Simple Health Bar\_Asteroids Example\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Assets\Simple Health Bar\_Asteroids Example\Scripts\HealthPickupController.cs" />
+    <Compile Include="Assets\Assets\Simple Health Bar\_Asteroids Example\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Assets\Simple Health Bar\_Asteroids Example\Scripts\PlayerHealth.cs" />
+    <Compile Include="Assets\Assets\Simple Health Bar\Scripts\SimpleHealthBar.cs" />
     <Compile Include="Assets\Scripts\Game Objects\Building.cs" />
     <Compile Include="Assets\Scripts\Game Objects\City.cs" />
     <Compile Include="Assets\Scripts\Game Objects\EnemyAI.cs" />
@@ -82,6 +88,16 @@
     <Compile Include="Assets\Scripts\Game Objects\Unit.cs" />
     <Compile Include="Assets\Scripts\Map.cs" />
     <Compile Include="Assets\Scripts\Tile.cs" />
+<<<<<<< HEAD
+=======
+    <None Include="Assets\Assets\castle\TXT\readme.txt" />
+    <None Include="Assets\Assets\buildings\firestation\firestation\LICENSE.txt" />
+    <None Include="Assets\Assets\buildings\barracks\barracks\LICENSE.txt" />
+    <None Include="Assets\Assets\buildings\weaponsmith\weaponsmith\FORGE CREDITS.txt" />
+    <None Include="Assets\Assets\Simple Health Bar\README.txt" />
+    <None Include="Assets\Assets\buildings\weaponsmith\weaponsmith\LICENSE.txt" />
+    <None Include="Assets\Assets\castle\TXT\LICENSES.txt" />
+>>>>>>> origin/Ekinsu
     <None Include="Assets\Assets\Fantasy RPG Icon Set- Free\Notes.txt" />
     <None Include="Assets\Assets\SpellBookPreface\ReadMe.txt" />
     <None Include="Assets\Assets\Dragon Warrior Files\Read Me.txt" />
