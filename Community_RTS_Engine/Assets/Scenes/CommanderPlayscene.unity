@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2945,15 +2945,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1549757161}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed98845dda296db4daf576363855d893, type: 3}
+  m_Script: {fileID: 11500000, guid: 96818e070e3c52f4b800a5ba9b7f5f3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gathererPanel: {fileID: 7118695}
+  gathererPanel: {fileID: 1769552937}
   traderPanel: {fileID: 1383960122}
-  soldierPanel: {fileID: 1769552937}
-  gathererBImage: {fileID: 1083686039}
-  traderBImage: {fileID: 988328633}
-  soldierBImage: {fileID: 2059059371}
+  soldierPanel: {fileID: 7118695}
+  gathererBImage: {fileID: 0}
+  traderBImage: {fileID: 0}
+  soldierBImage: {fileID: 0}
   mapController: {fileID: 697600625}
 --- !u!1 &1573521389
 GameObject:
@@ -3089,7 +3089,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1617964842}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 19b2b45ae2fae524bacd3914124bc11a, type: 3}
+  m_Script: {fileID: 11500000, guid: bd8f1a995e8e65e47a1b3fdf32f285d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &1617964844

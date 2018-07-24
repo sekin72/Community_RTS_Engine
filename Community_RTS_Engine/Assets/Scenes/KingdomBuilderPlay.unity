@@ -615,7 +615,16 @@ MonoBehaviour:
   SoldierBuilding: []
   GathererBuilding: []
   occupiedTileAmount: 0
-  belongsTo: {fileID: 0}
+  consB:
+  - {fileID: 613840155}
+  - {fileID: 1736289001}
+  - {fileID: 260958211}
+  - {fileID: 1846840455}
+  - {fileID: 1550510298}
+  - {fileID: 1121909918}
+  - {fileID: 578012469}
+  - {fileID: 1439529813}
+  - {fileID: 1506375444}
   timeNeeded: 0
   resourceNeededWood: 0
   resourceNeededWheat: 0

@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/KingdomBuilder.unity
+- path: Assets/Scenes/CommanderPlayscene.unity
   isLoaded: 1
   isActive: 1

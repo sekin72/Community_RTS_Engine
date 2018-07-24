@@ -1,27 +1,17 @@
 ﻿using Assets.Scripts.Game_Objects;
 using System;
-<<<<<<< HEAD
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-=======
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using UnityEngine;
 using UnityEngine.UI;
->>>>>>> origin/Kaan
 
 namespace Assets.Scripts
 {
     class EnemyAI : Player
     {
         Player otherPlayer;
-<<<<<<< HEAD
-        public void WhatToDo()
-        {
-=======
 
         private List<RawImage> consBuild = new List<RawImage>();
 
@@ -59,34 +49,10 @@ namespace Assets.Scripts
         }
         void gathererai()
         {
->>>>>>> origin/Kaan
             int sentTo = 0;
 
             foreach (var gatherer in Gatherers)
             {
-<<<<<<< HEAD
-                switch(sentTo)
-                {
-                    case (0):
-                        Map.Instance.findClosestTileWithAsset(gatherer.currentTile, new Resources(Resources.Resource.Meat));
-                        sentTo++;
-                        return;
-                    case (1):
-                        Map.Instance.findClosestTileWithAsset(gatherer.currentTile, new Resources(Resources.Resource.Metal));
-                        sentTo++;
-                        return;
-                    case (2):
-                        Map.Instance.findClosestTileWithAsset(gatherer.currentTile, new Resources(Resources.Resource.Rock));
-                        sentTo++;
-                        return;
-                    case (3):
-                        Map.Instance.findClosestTileWithAsset(gatherer.currentTile, new Resources(Resources.Resource.Wheat));
-                        sentTo++;
-                        return;
-                    case (4):
-                        Map.Instance.findClosestTileWithAsset(gatherer.currentTile, new Resources(Resources.Resource.Gold));
-                        sentTo =0;
-=======
                 switch (sentTo)
                 {
                     case (0):
@@ -108,42 +74,12 @@ namespace Assets.Scripts
                     case (4):
                         Map.Instance.findClosestTileWithAsset(gatherer.currentTile, new Resourcess(Resourcess.Resource.Gold));
                         sentTo = 0;
->>>>>>> origin/Kaan
                         return;
                     default:
                         return;
 
                 }
             }
-<<<<<<< HEAD
-
-            if (Soldiers.Count > 20)
-            {
-                foreach (var soldier in Soldiers)
-                {
-                    foreach (var otherSoldier in otherPlayer.Soldiers)
-                    {
-                        soldier.attack(Map.Instance.findClosestTileWithAsset(soldier.currentTile, otherSoldier));
-                    }
-                }
-            }
-
-            /*
-            foreach (var trader in Traders)
-            {
-
-            }
-            */
-
-            /*
-             * foreach building
-             * create units according to their amounts
-             * 
-             * create buildings
-             * 
-             * 
-             */
-=======
         }
         void traderai()
         {
@@ -196,7 +132,6 @@ namespace Assets.Scripts
         public void Update()
         {
             WhatToDo();
->>>>>>> origin/Kaan
         }
 
     }

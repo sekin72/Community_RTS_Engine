@@ -67,6 +67,8 @@
     <Compile Include="Assets\Assets\Free_Pack\Demo_GameResource\Script\Demo_GM.cs" />
     <Compile Include="Assets\Assets\Free_Pack\Demo_GameResource\Script\DestroyEffect.cs" />
     <Compile Include="Assets\Assets\Free_Pack\Demo_GameResource\Script\WoodDoll_Mgr.cs" />
+    <Compile Include="Assets\Scripts\CommanderGameEngine.cs" />
+    <Compile Include="Assets\Scripts\CommanderUIScript.cs" />
     <Compile Include="Assets\Scripts\Cursor_Controller.cs" />
     <Compile Include="Assets\Scripts\Game Objects\Building.cs" />
     <Compile Include="Assets\Scripts\Game Objects\City.cs" />
@@ -77,10 +79,12 @@
     <Compile Include="Assets\Scripts\Game Objects\Owned Assets.cs" />
     <Compile Include="Assets\Scripts\Game Objects\Player.cs" />
     <Compile Include="Assets\Scripts\Game Objects\Resources.cs" />
+    <Compile Include="Assets\Scripts\Game Objects\Resourcess.cs" />
     <Compile Include="Assets\Scripts\Game Objects\SoldierBuilding.cs" />
     <Compile Include="Assets\Scripts\Game Objects\SoldierUnit.cs" />
     <Compile Include="Assets\Scripts\Game Objects\TraderUnit.cs" />
     <Compile Include="Assets\Scripts\Game Objects\Unit.cs" />
+    <Compile Include="Assets\Scripts\MainEntrance.cs" />
     <Compile Include="Assets\Scripts\Map.cs" />
     <Compile Include="Assets\Scripts\MapController.cs" />
     <Compile Include="Assets\Scripts\Tile.cs" />
