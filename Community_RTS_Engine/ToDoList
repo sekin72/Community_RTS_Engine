@@ -1,0 +1,14 @@
+MainMenu x3						Ekinsu-Elif
+Options x1						Ekinsu-Elif (Adjustable Game Speed)
+Oyun içi UI x3						Ekinsu-Elif
+User Input Manager					Ekinsu-Elif (Unit classý içine if key.A key.D falan fiþman isPressed diye araþtýrýn)
+Technology Tree						Ekinsu-Elif (Pause menunun içine)
+Pause Menu						Ekinsu-Elif
+
+Enemy AI						Kaan
+
+Resource, Building, Unit Assets (GameObject Creation)	Batýkan
+Remaining Object Classes				Batýkan-Gürkan (Building funclarý, Faction specific units, Player classýnýn içine Unit Buff/Debuff)			
+Dynamic map						Gürkan
+
+GameEngine						En son	     (Adjustable Game Speed)

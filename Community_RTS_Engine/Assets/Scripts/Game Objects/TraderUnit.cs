@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Assets.Scripts.Game_Objects;
 
 namespace Assets.Scripts.Game_Objects
 {
@@ -9,7 +10,7 @@ namespace Assets.Scripts.Game_Objects
     {
         private Tile tradeTile;
         private int amount;
-        private Resource asked;
+        private Resourcess asked;
         private String currentTask = "want";
 
         public void attack(Tile target)
@@ -27,7 +28,7 @@ namespace Assets.Scripts.Game_Objects
                     sellToTarget();
         }
 
-        public void want(Tile target, Resource type, int askedAmount)
+        public void want(Tile target, Resourcess type, int askedAmount)
         {
             tradeTile = target;
             asked = type;
@@ -36,7 +37,7 @@ namespace Assets.Scripts.Game_Objects
             wantFromTarget();
         }
 
-        public void sell(Tile target, Resource type, int askedAmount)
+        public void sell(Tile target, Resourcess type, int askedAmount)
         {
             tradeTile = target;
             asked = type;
