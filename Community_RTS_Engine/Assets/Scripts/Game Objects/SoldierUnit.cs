@@ -10,11 +10,6 @@ namespace Assets.Scripts.Game_Objects
         private Tile attackTile;
         private int damage;
 
-        public SoldierUnit()
-        {
-
-        }
-
         public void Update()
         {
             if (attackTile != null)

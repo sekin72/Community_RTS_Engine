@@ -7,6 +7,11 @@ namespace Assets.Scripts.Game_Objects
 {
     class City : OwnedAssets
     {
-        
+        private bool checkAlive()
+        {
+            if (health <= 0)
+                return false;
+            return true;
+        }
     }
 }

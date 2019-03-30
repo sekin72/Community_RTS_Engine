@@ -1,5 +1,4 @@
-﻿using Assets.Scripts.Game_Objects;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,11 +7,8 @@ namespace Assets.Scripts
 {
     public class Tile
     {
+        public List<GameAssets> occupiedBy;
         private Player belongsTo;
-        public enum TileType { grass, dirt, leaves };
-        public TileType type;
-        float moveSpeed;
-        public GameAssets occupiedBy;
         public int x, y;
 
         public bool compareTile(Tile targetTile)
@@ -41,17 +37,6 @@ namespace Assets.Scripts
         {
 
         }
-
-        public Tile(int X, int Y)
-        {
-            x = X;
-            y = Y;
-            type = TileType.dirt;
-            if (UnityEngine.Random.Range(0, 2) == 1)
-                type = TileType.grass;
-
-        }
-
     }
 
 }

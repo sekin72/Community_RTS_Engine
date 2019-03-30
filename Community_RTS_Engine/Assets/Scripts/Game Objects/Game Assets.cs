@@ -8,9 +8,10 @@ public class GameAssets : MonoBehaviour
 
     public double x, y;
     Tile currentTile;
-    public int health=100;
+    public int health;
     //healthbar
     //updateHealthBar();
+    public enum Resource { Meat, Wheat, Rock, Metal, Gold};
 
 
     // Use this for initialization

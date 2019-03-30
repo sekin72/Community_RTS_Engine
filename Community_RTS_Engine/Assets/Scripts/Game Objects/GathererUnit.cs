@@ -10,12 +10,6 @@ namespace Assets.Scripts.Game_Objects
         private int gatherSpeed;
         private Tile gatherTarget;
 
-        public GathererUnit(Tile t)
-        {
-            currentTile = t;
-            gatherSpeed = 5;
-        }
-
         public void Update()
         {
             if (gatherTarget != null)
@@ -34,8 +28,11 @@ namespace Assets.Scripts.Game_Objects
         {
             bool flagRes = false;
 
-            if (gatherTarget.occupiedBy is Resourcess)
-                flagRes = true;
+            foreach(var res in gatherTarget.occupiedBy)
+            {
+                if (res is Resource)
+                    flagRes = true;
+            }
             if (!flagRes)
                 return ;
 
