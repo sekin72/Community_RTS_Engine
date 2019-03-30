@@ -5,9 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class MainEntrance : MonoBehaviour {
 
-
-
-	// tryout for reviewable
     public static MainEntrance Instance;
     public string name;
 	// Use this for initialization
